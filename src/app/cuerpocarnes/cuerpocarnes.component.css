@@ -1,0 +1,91 @@
+.contenedor-serv{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.contenedor-servis{
+    width: 25%;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 15px 20px 15px;
+    /*height: 100%;*/
+}
+.contener .targeta{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 8 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 28px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor-serv .targeta{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 8 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 28px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.contenedor-serv .targeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.contenedor-serv .targeta img{
+    width: 330px;
+    height: 220px;
+}
+.contenedor-serv .targeta h4{
+    font-weight: 600;
+}
+.contenedor-serv .targeta p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;  
+}
+.contenedor-serv .targeta a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contener .targeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.contener .targeta img{
+    width: 330px;
+    height: 220px;
+}
+.contener .targeta h4{
+    font-weight: 600;
+}
+.contener .targeta p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;  
+}
+.contener .targeta a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 49px;
+}

@@ -1,0 +1,12 @@
+.enla{
+    display: inline-block;
+    border: black;
+}
+.menu{
+    background-color: #ffffff !important;
+    opacity: 2;
+}
+
+.a, a {
+    font-size: 1.5rem;
+}

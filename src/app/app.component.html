@@ -1,0 +1,39 @@
+
+<app-encabezado></app-encabezado>
+
+<div class="menu" >
+    <ul class="nav nav-pills nav-justified"> 
+        <li class="nav-item">
+            <a  class="fondo_letra nav-link active" [routerLink]="['cuerpo']">
+                INICIO
+            </a>
+         </li>
+         <li class="nav-item">
+             <a  id="inicio" class="fondo_letra nav-link" [routerLink]="['cuerpofrutas']">
+                 FRUTAS Y VERDURAS
+             </a>
+         </li>
+         <li class="nav-item">
+             <a  id="inicio" class="fondo_letra nav-link" [routerLink]="['cuerpocarnes']">
+                 CARNES Y LACTEOS
+             </a>
+         </li>
+         <li class="nav-item">
+             <a  id="inicio" class="fondo_letra nav-link" [routerLink]="['cuerpogranos']">
+                 GRANOS Y DISPENSA
+             </a>
+         </li>
+         <li class="nav-item">
+             <a  id="inicio" class="fondo_letra nav-link" [routerLink]="['cuerpocontactenos']">
+                 ¿QUIENES SOMOS?
+             </a>
+         </li>
+     </ul>
+        
+     <router-outlet></router-outlet>
+</div>
+
+
+<app-footer></app-footer>
+
+
